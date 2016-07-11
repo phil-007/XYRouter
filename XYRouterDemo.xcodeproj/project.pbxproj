@@ -22,6 +22,7 @@
 		57E8B8721B81BEF8000A2F99 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 57E8B8711B81BEF8000A2F99 /* manifest.json */; };
 		57F0FC471B82C30200917062 /* TestModalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F0FC461B82C30200917062 /* TestModalVC.m */; };
 		57F0FC511B83067D00917062 /* XYRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57F0FC501B83067D00917062 /* XYRouter.m */; };
+		BB623F451D33AC1D00994B90 /* UIViewController+PZRouterParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = BB623F441D33AC1D00994B90 /* UIViewController+PZRouterParameter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		57F0FC461B82C30200917062 /* TestModalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModalVC.m; sourceTree = "<group>"; };
 		57F0FC4F1B83067D00917062 /* XYRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYRouter.h; sourceTree = "<group>"; };
 		57F0FC501B83067D00917062 /* XYRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYRouter.m; sourceTree = "<group>"; };
+		BB623F431D33AC1D00994B90 /* UIViewController+PZRouterParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+PZRouterParameter.h"; sourceTree = "<group>"; };
+		BB623F441D33AC1D00994B90 /* UIViewController+PZRouterParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+PZRouterParameter.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +182,8 @@
 				57F0FC501B83067D00917062 /* XYRouter.m */,
 				5791EC141CD2F27D00946A4E /* UIApplication+XYRouter.h */,
 				5791EC151CD2F27D00946A4E /* UIApplication+XYRouter.m */,
+				BB623F431D33AC1D00994B90 /* UIViewController+PZRouterParameter.h */,
+				BB623F441D33AC1D00994B90 /* UIViewController+PZRouterParameter.m */,
 			);
 			path = XYRouter;
 			sourceTree = SOURCE_ROOT;
@@ -295,6 +300,7 @@
 				57E8B86F1B81BECE000A2F99 /* TestVC1.m in Sources */,
 				57F0FC471B82C30200917062 /* TestModalVC.m in Sources */,
 				57F0FC511B83067D00917062 /* XYRouter.m in Sources */,
+				BB623F451D33AC1D00994B90 /* UIViewController+PZRouterParameter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

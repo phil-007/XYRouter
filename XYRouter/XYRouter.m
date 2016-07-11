@@ -261,10 +261,9 @@
     }
 
     [invocation invoke];
-    id returnValue;
+    void *returnValue;
     [invocation getReturnValue:&returnValue];
-
-    return returnValue;
+    return (__bridge UIViewController*)returnValue;
 }
 
 - (void)openURLString:(NSString *)URLString
